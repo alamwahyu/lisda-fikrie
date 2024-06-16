@@ -179,10 +179,10 @@ export const util = (() => {
 
     const open = async (button) => {
         button.disabled = true;
-        confetti({
-            origin: { y: 1 },
-            zIndex: 1057
-        });
+        // confetti({
+        //     origin: { y: 1 },
+        //     zIndex: 1057
+        // });
 
         theme.check();
         AOS.init();
