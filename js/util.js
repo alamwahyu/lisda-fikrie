@@ -201,7 +201,7 @@ export const util = (() => {
         const token = document.querySelector('body').getAttribute('data-key');
         const status = await storeConfig(token);
         if (status === 200) {
-            animation();
+            //animation();
             comment.comment();
         }
     };
